@@ -60,7 +60,7 @@ class FizzBuzz3 {
   }
   
   public static void main(String[] args) {
-    int max = 30;
+    int max = 20;
     FizzBuzz3 fizzBuzz = new FizzBuzz3();
     for (int i = 1; i <= max; i++) {
       System.out.println(fizzBuzz.getMultiple(i));
